@@ -1,5 +1,5 @@
 <?php
-    include "connection.php"
+    include "backend/blog_crud/get_all.php";
 ?>
 
 <!DOCTYPE html>
@@ -7,6 +7,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script defer src="scripts/components/test.js"></script>
 
         <link   href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
                 rel="stylesheet" 
@@ -57,6 +59,7 @@
         <div class="d-inline-flex flex-column gap-2 w-100 border">
             <div class="container p-4">
                 <div class="text-center">
+                    <test-item>Ohalo AAA</test-item>
                     <a href="create.php" class="btn btn-outline-dark"> Create A New Post </a>
                 </div>
             </div>
@@ -76,7 +79,6 @@
                                         <div class="card-text">
                                             <?php echo $item['content']; ?>
                                         </div>
-                                
                                     </div>
                                 </a>
                             </div>

@@ -1,5 +1,6 @@
 <?php
-    include "connection.php";
+    include "backend/blog_crud/update.php";
+    include "backend/blog_crud/get_filter.php";
 ?>
 
 <!DOCTYPE html>

@@ -1,5 +1,6 @@
 <?php
-    include "connection.php"
+    include "backend/blog_crud/get_filter.php";
+    include "backend/blog_crud/delete.php";
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +24,7 @@
         </title>
     </head>
     <body>
-        <div class="d-flex flex-column align-items-center bd-highlight mb-3 h-100">
+        <div class="d-flex flex-column align-items-center bd-highlight mb-3 h-100 p-2">
             <?php
                 foreach($query as $item)
                 {

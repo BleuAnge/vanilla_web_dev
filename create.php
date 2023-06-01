@@ -1,5 +1,5 @@
 <?php
-    include "connection.php";
+    include "backend/blog_crud/create.php";
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
         </title>
     </head>
     <body>
-        <div class="d-inline-flex flex-column gap-2 w-100">
+        <div class="d-inline-flex flex-column gap-2 w-100 p-2">
             <div class="d-flex flex-column gap-4 align-items-center">
                 <form   class="w-50 d-flex flex-column p-4 gap-2 align-items-center bg-primary border border-dark border-4 text-light rounded"
                         method="GET">
